@@ -8,8 +8,10 @@ This is a fully responsive personal portfolio website created as a self-learning
 
 ## 🚀 Live Demo
 
-🔗 [View Live Website] (https://github.com/Shravani210/Portfolio))  
-
+🔗 Click here to view my live portfolio
+<br> 
+(https://shravani-deshmukh.github.io/portfolio/)
+ 
 
 ## 📄 Pages Included
 
