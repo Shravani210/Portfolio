@@ -8,15 +8,14 @@ This is a fully responsive personal portfolio website created as a self-learning
 
 ## 🚀 Live Demo
 
-🔗 [View Live Website](https://yourusername.github.io/portfolio)  
+🔗 [View Live Website] (https://github.com/Shravani210/Portfolio))  
 
 
 ## 📄 Pages Included
 
 - **Home** – Landing section with an introduction.
 - **About** – Overview of who I am and what I do.
-- **Education** – Academic background and qualifications.
-- **Skills** – Technical and soft skills listed clearly.
+- **Certificates** – A collection of certifications I've earned during my learning journey.
 - **Contact** – Functional contact form with EmailJS integration.
 
 
@@ -38,7 +37,6 @@ This is a fully responsive personal portfolio website created as a self-learning
 - ✅ Clean, modern, and minimal UI design
 - ✅ Custom sections built from scratch for practice and learning
 
----
 
 ## 🤝 Contributing
 
