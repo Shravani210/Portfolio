@@ -5,9 +5,11 @@
 
 This is a fully responsive personal portfolio website created as a self-learning project using **HTML**, **CSS**, and **JavaScript**. It includes multiple pages that showcase different aspects of my profile — including personal information, skills, education, and more. The **contact form is fully functional**, using **EmailJS** to send emails directly from the site.
 
+
 ## 🚀 Live Demo
 
 🔗 [View Live Website](https://yourusername.github.io/portfolio)  
+
 
 ## 📄 Pages Included
 
@@ -16,6 +18,7 @@ This is a fully responsive personal portfolio website created as a self-learning
 - **Education** – Academic background and qualifications.
 - **Skills** – Technical and soft skills listed clearly.
 - **Contact** – Functional contact form with EmailJS integration.
+
 
 ## 🛠️ Technologies Used
 
