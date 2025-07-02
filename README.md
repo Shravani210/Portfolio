@@ -10,7 +10,7 @@ This is a fully responsive personal portfolio website created as a self-learning
 
 🔗 Click here to view my live portfolio
 <br> 
-(https://shravani-deshmukh.github.io/portfolio/)
+(http://localhost:8000/)
  
 
 ## 📄 Pages Included
