@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link
+             href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <meta charset="UTF-8">
+        <title>Shravani's Portfolio</title>
+          <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav-logo">Shravani</a>
+
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">Home </a>
+                        </li>
+
+                         <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#certificates" class="nav-link">Certificates</a>
+                        </li>
+          
+
+                         <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+
+                        
+                        
+                    </ul>
+
+                    <i class="ri-close-line nav-close"></i>
+                </div> 
+                
+                <div class="nav-btns">
+                    <i class="ri-sun-line change-theme" id="theme-toggle"></i>
+
+                    <div class="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+          <!--=============== HOME ===============-->
+          <section class="home section" id="home">
+            <div class="home-container container grid">
+              <div class="row">
+                <h1 class="home-title">Shravani Deshmukh</h1>
+
+                <!-- Typing effect below the name -->
+                <h3 class="home-job">
+                    I am a <span class="typing"></span><span class="cursor">|</span>
+                </h3>
+
+                <p class="home-description">
+                    A passionate Data Analyst, Web Developer, and UI/UX Designer. I specialize 
+                    in turning complex data into clear insights, building user-friendly websites, 
+                    and designing intuitive digital experiences. With a unique blend of analytical 
+                    thinking and creative design, I aim to deliver solutions that are both effective and engaging.
+                </p>
+              </div>
+
+              <div class="home-img-wrapper">
+                <img src="assets/img/profile_img.png" alt="" class="home-img">
+              </div>
+
+              <!-- Include Remix Icon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="home-social">
+    <a href="https://www.linkedin.com/in/shravani-deshmukh-2aa89025a" target="_blank">
+  <i class="ri-linkedin-fill"></i>
+</a>
+
+    <a href="https://github.com/Shravani210" target="_blank">
+      <i class="ri-github-fill"></i>
+    </a>
+  </div>
+
+            </div>
+        </section>
+
+        <script>
+            const jobRoles = ["Data Analyst", "Web Developer", "UI/UX Designer"];
+            const typingElement = document.querySelector(".typing");
+            let roleIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+
+            function typeJobTitle() {
+                const current = jobRoles[roleIndex];
+                typingElement.className = "typing role-" + roleIndex; // 👈 Set color class
+                if (isDeleting) {
+                typingElement.textContent = current.substring(0, charIndex--);
+                } else {
+                typingElement.textContent = current.substring(0, charIndex++);
+                }
+
+                if (!isDeleting && charIndex === current.length + 1) {
+                isDeleting = true;
+                setTimeout(typeJobTitle, 1000);
+                } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                roleIndex = (roleIndex + 1) % jobRoles.length;
+                setTimeout(typeJobTitle, 300);
+                } else {
+                setTimeout(typeJobTitle, isDeleting ? 60 : 100);
+                }
+            }
+
+            document.addEventListener("DOMContentLoaded", typeJobTitle);
+        </script>
+
+          <!--=============== ABOUT ===============-->
+          <section id="about"></section>
+          <div id="about">
+  <div class="container">
+    <div class="about-row"> <!-- Fixed class name here -->
+
+      <!-- Left Side: Image -->
+      <div class="about-col-1">
+        <img src="assets/img/profile_img.png" alt="">
+      </div>
+
+      <!-- Right Side: About Text -->
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>
+          I’m Shravani Deshmukh, an AI & Data Science student with a passion for Data Science, Machine Learning,
+          AI, Web Development, and UI/UX Design. I love combining logic with creativity to build intelligent 
+          and user-friendly solutions. Skilled in Python, HTML/CSS, JavaScript, and Figma, I’m always eager
+          to learn and work on real-world projects.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>. UI/UX</span><br>Designing Web/App interfaces</li>
+            <li><span>. Web Developer</span><br>Web app Development</li>
+            <li><span>. Data Analyst</span><br>Analyzing & Visualizing Data</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>. Jan 25–Mar 25</span><br>UI/UX design internship with a freelancer</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>. 2020</span><br>Lower Secondary Degree</li>
+            <li><span>. 2022</span><br>Higher Secondary Degree</li>
+            <li><span>. 2026</span><br>AISSMS Institute of Information Technology</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+            <script>
+                let tablinks = document.getElementsByClassName("tab-links");
+                let tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (let tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    
+                    for (let tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                    }
+            </script>
+
+            <!--=============== CERTIFICATE ===============-->
+<section id="certificates">
+  <div class="cert-section">
+    <h1 class="sub-title">Certificates</h1>
+
+    <div class="cert-grid">
+      <!-- Certificate 1 -->
+      <div class="cert-item">
+        <a href="assets/img/power bi_certificate.jpg" target="_blank">
+          <img src="assets/img/power bi_certificate.jpg" alt="Power BI Certificate">
+        </a>
+        <p>Power BI - Analyze & Visualize Data</p>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="cert-item">
+        <a href="assets/img/NLP certificate.jpg" target="_blank">
+          <img src="assets/img/NLP certificate.jpg" alt="NLP Certificate">
+        </a>
+        <p>Natural Language Processing Course</p>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="cert-item">
+        <a href="assets/img/SIH cerificate.jpg" target="_blank">
+          <img src="assets/img/SIH cerificate.jpg" alt="SIH Certificate">
+        </a>
+        <p>Smart India Hackathon Participation</p>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="cert-item">
+        <a href="assets/img/Complete web develpoment course from udemy_page-0001.jpg" target="_blank">
+          <img src="assets/img/Complete web develpoment course from udemy_page-0001.jpg" alt="Web Development Certificate">
+        </a>
+        <p>Complete Web Development Course (Udemy)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+          <!--=============== CONTACT ===============-->
+        <section id="contact"></section>
+  <div class="contact-container">
+    <div class="contact-row">
+
+      <!-- LEFT SIDE -->
+      <div class="contact-left">
+  <h1 class="sub-title">Contact Me</h1>
+
+  <p><i class="ri-send-plane-fill small-icon"></i> shravani.deshmukh5577@gmail.com</p>
+
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/shravani-deshmukh-2aa89025a" target="_blank"><i class="ri-linkedin-fill"></i></a>
+    <a href="https://github.com/Shravani210" target="_blank"><i class="ri-github-fill"></i></a>
+  </div>
+
+  <a href="assets/pdf/Shravani Resume.pdf" download class="btn btn2">Download CV</a>
+</div>
+
+
+      <!-- RIGHT SIDE -->
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+        <!--=============== FOOTER ===============-->
+        <div class="copyright">
+          <p>Copyright © 2025 • Shravani.D • All Rights Reserved </p>
+        </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+

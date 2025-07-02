@@ -1,0 +1,51 @@
+========== NAVBAR ========
+Shravani 
+
+
+.nav-name
+Home
+About
+Hobbies
+Contact 
+
+
+
+
+======== HOME ==========
+.home-title
+Shravani Deshmukh
+
+.home-job 
+I am a Coder
+I am a Web Developer
+I am a UI/UX Designer
+
+home-description 
+A passionate Data Analyst, Web Developer, and UI/UX Designer. I specialize in turning complex data into clear insights,
+building user-friendly websites, and designing intuitive digital experiences. With a unique 
+blend of analytical thinking and creative design, I aim to deliver solutions that are both effective and engaging.
+
+.home-social-links
+htpps://www.linkedin.com/
+htpps://github.com/
+
+==========ABOUT=========
+.about-description
+I’m Shravani Deshmukh, an AI & Data Science student with a passion for Data Science, 
+Machine Learning, AI, Web Development, and UI/UX Design. I love combining logic 
+with creativity to build intelligent and user-friendly solutions. Skilled in Python, 
+HTML/CSS, JavaScript, and Figma, I’m always eager to learn and work on real-world projects.
+
+.about-skills
+UI/UX - Designing Web/App interfaces
+Web Developer - Web app Development
+Data Analyst - Analyzing & Visualizing Data
+
+.about-experience
+Jan 25 - Mar 25 = UI/UX design internship with a freelancer
+
+==========FOOTER=========
+ © 2025 • Shravani.D • All Rights Reserved
+
+
+
