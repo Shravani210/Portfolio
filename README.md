@@ -10,7 +10,7 @@ This is a fully responsive personal portfolio website created as a self-learning
 
 🔗 Click here to view my live portfolio
 <br> 
-https://github.com/Shravani210/Portfolio.git
+(https://shravani210.github.io/Portfolio/)
  
 
 ## 📄 Pages Included
